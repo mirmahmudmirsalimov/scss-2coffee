@@ -1,0 +1,48 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1440px;
+        width: 100%;
+        background-color: $white;
+        padding-bottom: 168px;
+
+        .hero__img {
+            background-image: url("/images/coffee-bitma.jpg");
+            max-width: 1280px;
+            height: 450px;
+            width: 100%;
+            padding: 0 0 0 85px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            .hero__inner {
+                .hero__h2 {
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 120%;
+                    color: $f7white;
+                    margin: 0;
+                }
+    
+                .hero__text {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 162%;
+                    color: $f7white;
+                    margin-top: 24px;
+                    max-width: 400px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        max-width: 1440px;
+        width: 100%;
+        background: #F2F2F2;
+        padding: 0 0 88px 0;
+
+        .footer__container_inner-container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1280px;
+            width: 100%;
+            background: #2C343E;
+            padding: 47px 85px;
+
+            .footer__img {
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                &:active {
+                    opacity: 0.6;
+                }
+            }
+
+            .footer__list {
+                display: flex;
+
+                .footer__inner-1 {
+                    list-style: none;
+                    padding-right: 33px;
+                }
+
+                .footer__inner-2 {
+                    list-style: none;
+                    padding-right: 32px;
+                }
+
+                .footer__inner {
+                    list-style: none;
+                }
+
+                .footer__link-a {
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 125%;
+                    letter-spacing: 0.923077px;
+                    color: #83888F;
+                }
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                &:active {
+                    opacity: 0.6;
+                }
+            }
+
+            .footer__list-img {
+                display: flex;
+
+                .footer__inner-img {
+                    list-style: none;
+                    list-style: none;
+                    padding: 0 24px 0 0;
+
+                    .footer__inner--img {
+                        width: 24px;
+                        height: 24px;
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
+
+                        &:active {
+                            opacity: 0.6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
